@@ -51,7 +51,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.baseURL = '/nursery';
-    ENV.locationType = 'hash';
+    ENV.locationType = 'auto';
   }
 
   return ENV;
